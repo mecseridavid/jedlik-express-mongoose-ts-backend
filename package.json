@@ -1,7 +1,7 @@
 {
-    "name": "jedlik-express-mongoose-ts-backend-template",
+    "name": "jedlik-express-mongoose-ts-backend",
     "version": "1.0.0",
-    "description": "Jedlik project template for backend programming.",
+    "description": "Jedlik backend template for homework.",
     "engines": {
         "node": "14.x"
     },
@@ -9,7 +9,7 @@
     "repository": {
         "private": false,
         "type": "git",
-        "url": "https://github.com/nitslaszlo/jedlik-express-mongoose-ts-backend-template"
+        "url": "https://github.com/mecseridavid/jedlik-express-mongoose-ts-backend"
     },
     "scripts": {
         "start": "node ./dist/server.js",
@@ -22,7 +22,7 @@
         "lint-fix": "eslint --fix ./src --ext .vue,.js,.ts",
         "test": "jest || ECHO."
     },
-    "author": "Nits László",
+    "author": "Mecséri Dávid",
     "license": "MIT",
     "dependencies": {
         "bcrypt": "^5.0.1",

@@ -10,7 +10,8 @@
         "editor.formatOnSave": true
     },
     "[typescript]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
