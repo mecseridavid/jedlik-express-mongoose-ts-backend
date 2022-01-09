@@ -2,6 +2,8 @@
 
 [Template](https://github.com/nitslaszlo/jedlik-express-mongoose-ts-backend-template) with the possibility to add recipes.
 
+[Heroku](https://express-mongoose-ts-backend.herokuapp.com)
+
 This template made on the basis of [Express Typescript tutorial](https://wanago.io/courses/typescript-express-tutorial/).
 NODE.JS version: v14.17.6
 
