@@ -49,9 +49,9 @@ export default class RecipeController implements Controller {
             let count = 0;
             if (req.params.keyword) {
                 const regex = new RegExp(req.params.keyword, "i"); // i for case insensitive
-                count = await this.post.find({ $or: [{ title: { $regex: regex } }, { content: { $regex: regex } }] }).count();
+                count = await this.post.find({ $or: [{ recipeName: { $regex: regex } }, { description: { $regex: regex } }] }).count();
                 recipes = await this.post
-                    .find({ $or: [{ title: { $regex: regex } }, { content: { $regex: regex } }] })
+                    .find({ $or: [{ recipeName: { $regex: regex } }, { description: { $regex: regex } }] })
                     .sort(`${sort == -1 ? "-" : ""}${order}`)
                     .skip(offset)
                     .limit(limit);
