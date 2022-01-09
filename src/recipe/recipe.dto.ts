@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString } from "class-validator";
+import { IsArray, IsNotEmpty, IsString } from "class-validator";
 
 export default class CreateRecipeDto {
     @IsString()
@@ -10,6 +10,7 @@ export default class CreateRecipeDto {
     @IsString()
     public description: string;
 
+    @IsArray()
     @IsNotEmpty()
     public ingredients: string[];
 }
