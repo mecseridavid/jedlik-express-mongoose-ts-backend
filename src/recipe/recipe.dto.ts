@@ -1,17 +1,20 @@
-import { IsArray, IsNotEmpty, IsString, IsUrl } from "class-validator";
+import { ArrayNotEmpty, IsArray, IsNotEmpty, IsString, IsUrl } from "class-validator";
 
 export default class CreateRecipeDto {
+    @IsNotEmpty()
     @IsString()
     public recipeName: string;
 
+    @IsNotEmpty()
     @IsUrl()
     @IsString()
     public imageURL: string;
 
+    @IsNotEmpty()
     @IsString()
     public description: string;
 
     @IsArray()
-    @IsNotEmpty()
+    @ArrayNotEmpty()
     public ingredients: string[];
 }
