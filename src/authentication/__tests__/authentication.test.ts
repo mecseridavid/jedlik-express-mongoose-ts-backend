@@ -14,6 +14,7 @@ let server: Express.Application;
 beforeAll(async () => {
     // server = new App([new PostController(), new AuthenticationController(), new UserController(), new ReportController()]).getServer();
     server = new App([new AuthenticationController()]).getServer();
+    jest.setTimeout(30000);
 });
 
 describe("test API endpoints", () => {

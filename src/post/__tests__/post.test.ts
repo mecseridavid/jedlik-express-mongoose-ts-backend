@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "dotenv/config";
 import App from "../../app";
 import AuthenticationController from "../../authentication/authentication.controller";
@@ -23,7 +24,7 @@ beforeAll(async () => {
 describe("test API endpoints", () => {
     it("GET /posts", async () => {
         const response = await request(server).get("/posts").set("Cookie", cookie);
-        const count: unknown = response.body.count;
+        const count: number = response.body.count;
         expect(response.body.count).toBe(count);
     });
 });
