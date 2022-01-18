@@ -51,6 +51,12 @@
 							"listen": "test",
 							"script": {
 								"exec": [
+									"const jar = pm.cookies.jar();\r",
+									"console.log(jar)\r",
+									"// jar.clear(pm.request.url, function (error) {\r",
+									"//   console.log(error)\r",
+									"// });\r",
+									"\r",
 									"var c = pm.cookies.get('Authorization')\r",
 									"pm.collectionVariables.set('cookie', c)"
 								],
@@ -85,6 +91,18 @@
 				},
 				{
 					"name": "Logout",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var c = \"\"\r",
+									"pm.collectionVariables.set('cookie', c)"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"request": {
 						"method": "POST",
 						"header": [],
