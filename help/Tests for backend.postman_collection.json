@@ -264,13 +264,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/posts/61b63540f39e4edcf5b8a421",
+							"raw": "{{URL}}/posts/61b63504f39e4edcf5b8a41b",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"posts",
-								"61b63540f39e4edcf5b8a421"
+								"61b63504f39e4edcf5b8a41b"
 							]
 						}
 					},
@@ -313,11 +313,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/61b63504f39e4edcf5b8a41b",
+							"raw": "{{URL}}/posts/61b63504f39e4edcf5b8a41b",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
+								"posts",
 								"61b63504f39e4edcf5b8a41b"
 							]
 						}
@@ -349,7 +350,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"_id\": {\r\n        \"$oid\": \"61b63504f39e4edcf5b8a41b\"\r\n    },\r\n    \"author\": {\r\n        \"$oid\": \"61b5f048f39e4edcf5b8a3ca\"\r\n    },\r\n    \"content\": \"A veterán Jim Hanson Arizonában, a mexikói határ mentén él. A férfi nehéz időszakot tudhat maga mögött, nemrég hunyt el ugyanis imádott felesége rákban. Jimet a gyászból két illegális bevándorló zökkenti ki: az anya-fiú párosra véletlenül bukkanó exkatona egy lövöldözésbe keveredik a mexikói kartell tagjaival, mely során egy eltévedt golyó végez az édesanyával. Jim így, ha vonakodva is, de szárnyai alá veszi a fiút, Miguelt, hogy elvigye őt Chicagóban élő rokonaihoz. Ám a kartell legelvetemültebb tagjai továbbra is ott vannak a nyomukban…\",\r\n    \"title\": \"Az oltalmazó 2021\"\r\n}",
+							"raw": "{\r\n    \"author\": {\r\n        \"$oid\": \"61b5f048f39e4edcf5b8a3ca\"\r\n    },\r\n    \"content\": \"A veterán Jim Hanson Arizonában, a mexikói határ mentén él. A férfi nehéz időszakot tudhat maga mögött, nemrég hunyt el ugyanis imádott felesége rákban. Jimet a gyászból két illegális bevándorló zökkenti ki: az anya-fiú párosra véletlenül bukkanó exkatona egy lövöldözésbe keveredik a mexikói kartell tagjaival, mely során egy eltévedt golyó végez az édesanyával. Jim így, ha vonakodva is, de szárnyai alá veszi a fiút, Miguelt, hogy elvigye őt Chicagóban élő rokonaihoz. Ám a kartell legelvetemültebb tagjai továbbra is ott vannak a nyomukban…\",\r\n    \"title\": \"Az oltalmazó 2021\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -396,13 +397,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/recipes/61dafb17f6fb8e890682fa17",
+							"raw": "{{URL}}/recipes/61daf48ba5775848e99f555b",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"recipes",
-								"61dafb17f6fb8e890682fa17"
+								"61daf48ba5775848e99f555b"
 							]
 						}
 					},
@@ -463,13 +464,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/recipes/61dafb17f6fb8e890682fa17",
+							"raw": "{{URL}}/recipes/61daf48ba5775848e99f555b",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"recipes",
-								"61dafb17f6fb8e890682fa17"
+								"61daf48ba5775848e99f555b"
 							]
 						}
 					},
@@ -482,7 +483,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"_id\": {\r\n        \"$oid\": \"61dafb17f6fb8e890682fa17\"\r\n    },\r\n    \"author\": {\r\n        \"$oid\": \"61b5e9c0f39e4edcf5b8a3b9\"\r\n    },\r\n    \"recipeName\": \"PIRÍTOTT CSIRKEMÁJ EGYSZERŰEN\",\r\n    \"imageURL\": \"https://www.mindmegette.hu/images/263/O/maj.jpg\",\r\n    \"description\": \"A hagymát közepesen apróra vágjuk és kevés olajon, és közepes tűzön üvegesre pároljuk. A májat felvágjuk, nem kell nagyon, minden párat mondjuk 4 darabra. Hozzáadjuk a hagymához és közepes tűzön pirítjuk. (Fontos, hogy ne adjunk hozzá vizet, ami a májból kifő, az pont elég lesz, nem fog odaégni.) Kb. 6-8 percig érdemes így pirítani.\\nFűszerezni csak akkor érdemes elkezdeni, amikor már nincs nyers (vörös) része a májnak, akkor mehet rá a bors. Pár percig érdemes így főzni, majd megszórjuk a pirospaprikával. Abból is mehet jó sok, kb 3-4 csapott evőkanálnyi. Összefőzzük, majd levesszük a tűzről. Ekkor megsózzuk és összekeverjük mégegyszer. A só szárítja a májat, ha csak a végén adjuk hozzá, akkor sokkal puhább marad. Rizzsel, esetleg krumplival fogyasztandó. \",\r\n    \"ingredients\": [\r\n        \"5 fej\\tvöröshagyma\",\r\n        \"étolaj\",\r\n        \"70 dkg\\tcsirkemáj\",\r\n        \"bors\",\r\n        \"3ek\\tédespaprika\",\r\n        \"só\"\r\n    ]\r\n}",
+							"raw": "{\r\n    \"author\": {\r\n        \"$oid\": \"61b5ea14f39e4edcf5b8a3bd\"\r\n    },\r\n    \"recipeName\": \"PENNE ALL ARRABBIATA CSIRKEMELLEL\",\r\n    \"imageURL\": \"https://www.mindmegette.hu/images/240/O/penne-arrabbiata-csirkes.jpg\",\r\n    \"description\": \"A tésztát a csomágolásán látható utasítás szerint forró, sós vízbe kifőzzük és leszűrjük. \\nA finomra vágott hagymákat olajon megdinszteljük, majd hozzáadjuk a kockára vágott csirkemellet és fehéredésig pirítjuk. Sózzuk, borsozzuk, ráöntjük a paradicsomkonzervet és a vörösbort majd forrásig melegítjük.\\nHozzáadjuk a chilit, a felaprított bazsalikomot, az oregánót, végül pedig a barnacukrot és 25-30 percig főzzük, míg a csirkemell meg nem puhul, majd összekeverjük a tésztával. \",\r\n    \"ingredients\": [\r\n        \"50 dkg\\tpenne\",\r\n        \"1 db\\tvöröshagyma\",\r\n        \"4 gerezd\\tfokhagyma\",\r\n        \"30 dkg\\tcsirkemell\",\r\n        \"só\",\r\n        \"bors\",\r\n        \"1 doboz\\tkonzerv paradicsom\",\r\n        \"1 dl\\tvörösbor\",\r\n        \"chili\",\r\n        \"1 marék\\tbazsalikom\",\r\n        \"oregano\",\r\n        \"1 tk\\tbarnacukor\"\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
