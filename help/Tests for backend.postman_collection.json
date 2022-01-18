@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "febed14e-a0e6-4cea-b0ea-1ca666eded9f",
+		"_postman_id": "b0ea8d5e-0447-4a9e-8137-2d1bc20e6c7b",
 		"name": "Tests for backend",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -252,13 +252,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/posts/61b5e9c0f39e4edcf5b8a3b9",
+							"raw": "{{URL}}/posts/61b63540f39e4edcf5b8a421",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"posts",
-								"61b5e9c0f39e4edcf5b8a3b9"
+								"61b63540f39e4edcf5b8a421"
 							]
 						}
 					},
@@ -270,12 +270,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}//0/5/content/1/2049",
+							"raw": "{{URL}}/posts/0/5/content/1/2049",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
-								"",
+								"posts",
 								"0",
 								"5",
 								"content",
