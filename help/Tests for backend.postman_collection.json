@@ -51,12 +51,6 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"const jar = pm.cookies.jar();\r",
-									"console.log(jar)\r",
-									"// jar.clear(pm.request.url, function (error) {\r",
-									"//   console.log(error)\r",
-									"// });\r",
-									"\r",
 									"var c = pm.cookies.get('Authorization')\r",
 									"pm.collectionVariables.set('cookie', c)"
 								],
@@ -331,7 +325,7 @@
 					"response": []
 				},
 				{
-					"name": "Delete Post by ID",
+					"name": "Delete Post",
 					"request": {
 						"method": "DELETE",
 						"header": [],
@@ -380,7 +374,7 @@
 			"name": "Recipes",
 			"item": [
 				{
-					"name": "/recipes",
+					"name": "Get All Recipes",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -397,7 +391,7 @@
 					"response": []
 				},
 				{
-					"name": "/recipes/:id",
+					"name": "Get Recipe by ID",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -415,7 +409,7 @@
 					"response": []
 				},
 				{
-					"name": "/recipes/0/5/discription/1/paradicsom",
+					"name": "Get Paginated Recipes",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -437,7 +431,7 @@
 					"response": []
 				},
 				{
-					"name": "/recipes/61daf48ba5775848e99f555b",
+					"name": "Modify Recipe",
 					"request": {
 						"method": "PATCH",
 						"header": [],
@@ -464,7 +458,7 @@
 					"response": []
 				},
 				{
-					"name": "/recipes/61dafb17f6fb8e890682fa17",
+					"name": "Delete Recipe",
 					"request": {
 						"method": "DELETE",
 						"header": [],
@@ -482,7 +476,7 @@
 					"response": []
 				},
 				{
-					"name": "/recipes",
+					"name": "Create Recipe",
 					"request": {
 						"method": "POST",
 						"header": [],
